@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node dist/bot.js",
+    "build": "tsc",
+    "clear": "rm -rf dist",
+    "dev": "npm run clear && npm run build && npm run start"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "path": "^0.12.7",
+    "telegraf": "^4.16.3",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
